@@ -15,7 +15,7 @@ config.window_padding = {
 }
 
 config.initial_cols = 120
-config.color_scheme = 'Batman'
+config.color_scheme = 'Catppuccin Frappe'
 config.font = wezterm.font_with_fallback {
   'Mononoki Nerd Font',
 }
@@ -41,8 +41,9 @@ config.status_update_interval = 1000
 wezterm.on("update-right-status", function(window, pane)
   local time = wezterm.strftime("%H:%M")
   window:set_right_status(wezterm.format({
+    { Text = " " },
     { Text = wezterm.nerdfonts.md_clock .. "  " .. time },
-    { Text = "  " },
+    { Text = " " },
   }))
 end)
 
