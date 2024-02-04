@@ -26,6 +26,7 @@ config.window_decorations = "RESIZE"
 config.cursor_blink_ease_in = 'Constant'
 config.cursor_blink_ease_out = 'Constant'
 config.cursor_blink_rate = 500
+config.audible_bell = "Disabled"
 
 config.leader = { key = ';',  mods = "CMD", timeout_milliseconds = 1000 }
 config.keys = {
