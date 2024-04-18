@@ -17,10 +17,10 @@ config.window_padding = {
 config.initial_cols = 120
 config.color_scheme = 'Catppuccin Frappe'
 config.font = wezterm.font_with_fallback {
-  'Mononoki Nerd Font',
+  'Kode Mono',
 }
-config.font_size = 14.3
-config.line_height = 1.5
+config.font_size = 14
+config.line_height = 1.3
 config.window_background_opacity = 0.98
 config.window_decorations = "RESIZE"
 config.cursor_blink_ease_in = 'Constant'
